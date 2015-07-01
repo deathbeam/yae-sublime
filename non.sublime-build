@@ -1,0 +1,32 @@
+{
+  "selector": ["source.moonscript", "source.yaml"],
+  "working_dir": "${project_path:${folder}}",
+  "cmd": ["non", "pack"],
+
+  "variants": [
+    { "name": "run desktop",
+      "working_dir": "${project_path:${folder}}",
+      "cmd": ["non", "run", "desktop"]
+    },
+    { "name": "run android",
+      "working_dir": "${project_path:${folder}}",
+      "cmd": ["non", "run", "android"],
+    },
+    { "name": "run ios",
+      "working_dir": "${project_path:${folder}}",
+      "cmd": ["non", "run", "ios"],
+    },
+    { "name": "pack desktop",
+      "working_dir": "${project_path:${folder}}",
+      "cmd": ["non", "pack", "desktop"]
+    },
+    { "name": "pack android",
+      "working_dir": "${project_path:${folder}}",
+      "cmd": ["non", "pack", "android"],
+    },
+    { "name": "pack ios",
+      "working_dir": "${project_path:${folder}}",
+      "cmd": ["non", "pack", "ios"],
+    }
+  ]
+}
