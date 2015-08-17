@@ -1,4 +1,4 @@
-# non-sublime
+# yae-sublime
 
 ![Plugin demonstration](https://pbs.twimg.com/media/CI5f0ZMUAAAj5WL.png:large)
 
