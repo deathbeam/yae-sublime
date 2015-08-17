@@ -1,32 +1,32 @@
 {
   "selector": ["source.moonscript", "source.yaml"],
   "working_dir": "${project_path:${folder}}",
-  "cmd": ["non", "pack"],
+  "cmd": ["yae", "build"],
 
   "variants": [
     { "name": "run desktop",
       "working_dir": "${project_path:${folder}}",
-      "cmd": ["non", "run", "desktop"]
+      "cmd": ["yae", "run", "desktop"]
     },
     { "name": "run android",
       "working_dir": "${project_path:${folder}}",
-      "cmd": ["non", "run", "android"],
+      "cmd": ["yae", "run", "android"],
     },
     { "name": "run ios",
       "working_dir": "${project_path:${folder}}",
-      "cmd": ["non", "run", "ios"],
+      "cmd": ["yae", "run", "ios"],
     },
-    { "name": "pack desktop",
+    { "name": "build desktop",
       "working_dir": "${project_path:${folder}}",
-      "cmd": ["non", "pack", "desktop"]
+      "cmd": ["yae", "build", "desktop"]
     },
-    { "name": "pack android",
+    { "name": "build android",
       "working_dir": "${project_path:${folder}}",
-      "cmd": ["non", "pack", "android"],
+      "cmd": ["yae", "build", "android"],
     },
-    { "name": "pack ios",
+    { "name": "build ios",
       "working_dir": "${project_path:${folder}}",
-      "cmd": ["non", "pack", "ios"],
+      "cmd": ["yae", "build", "ios"],
     }
   ]
 }
